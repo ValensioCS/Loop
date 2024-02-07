@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // let PABP = 75;
+        // let MTK = 70;
+        // let PDK =  80;
+        // let nilai = PABP/3 + MTK/3 + PDK/3;
+        // console.log (nilai)
+        
+
+        // if (nilai >= 80 && nilai <= 100){
+        //     console.log ('A')
+        // }else if (nilai >= 75 && nilai <= 80){
+        //     console.log ("B")
+        // }else if (nilai >= 65 && nilai <= 75){
+        //     console.log ('C')
+        // }else if (nilai >= 45 && nilai <= 65){
+        //     console.log ('D')
+        // }else if (nilai >= 0 && nilai <= 45){
+        //     console.log ('E')
+        // }else{
+        //     console.log ('K')
+        // }
+
+        
+        // let angka = 22505197803;
+        // let golongan = Math.floor (angka / 1000000000 % 10);
+        // console.log ( golongan )
+
+        // const dd = Math.floor (angka / 100000000 % 100)
+        // console.log (dd)
+
+        // let mm = Math.floor (angka / 1000000 % 100);
+        // switch(mm){
+        //     case 1 : 
+        //         mm ='Januari'
+        //     break
+        //     case 2 : 
+        //         mm ='Februari'
+        //     break
+        //     case 3 : 
+        //         mm ='Maret'
+        //     break
+        //     case 4 : 
+        //         mm ='April'
+        //     break 
+        //     case 5 : 
+        //         mm = 'Mei'
+        //     break
+        //     case 6 : 
+        //         mm ='Juni'
+        //     break
+        //     case 7 : 
+        //         mm ='Juli'
+        //     break
+        //     case 8 : 
+        //         mm = 'Agustus'
+        //     break 
+        //     case 9 : 
+        //         mm ='September'
+        //     break
+        //     case 10 : 
+        //         mm = 'Oktober'
+        //     break
+        //     case 11 : 
+        //         mm = 'November'
+        //     break
+        //     case 12 : 
+        //         mm = 'Desember'
+        //         break
+        // }
+        // console.log (mm)
+
+        // const yyyy = Math.floor ( angka / 100 % 10000)
+        // console.log (yyyy)
+
+        // const nn = Math.floor ( angka / 1 % 100)
+        // console.log (nn)
+        
+
+        
+         let jam =23
+         let menit = 59
+         let detik = 59
+
+         let totaldetik = (jam*3600) + (menit*60) + (detik) + (1);
+
+         jam = Math.floor (totaldetik/3600 % 24)
+         menit = Math.floor (totaldetik % 3600 / 60)
+         detik = totaldetik % 60
+
+         console.log (jam,menit,detik)
+    </script>
+</body>
+</html>
